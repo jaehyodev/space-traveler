@@ -14,27 +14,6 @@
 
 <br>
 
-## ⭐ 설치
-<a href="https://drive.google.com/file/d/1Aja1FJgEZoAK2JCB97OVqLzco_X72d2q/view?usp=drive_link">SpaceTraveler.apk</a>
-
-<br>
-
-## 📷 플레이 이미지
-<div align="center">
-    <img height=200 src="https://github.com/user-attachments/assets/3a732fbf-c96e-40bd-8a82-1491f7c78b5f"/>
-    <img height=200 src="https://github.com/user-attachments/assets/7817fb07-4231-4d19-a785-f4263c13e841"/>
-    <img height=200 src="https://github.com/user-attachments/assets/c385c5a0-bc0d-4946-9776-26c393e6ced6"/>
-    <img height=200 src="https://github.com/user-attachments/assets/b76ef12c-0aa8-493c-a382-3c949bf20a51"/>
-    <img height=200 src="https://github.com/user-attachments/assets/1cd49731-e3d8-4399-824b-bdd1b4b59c10"/>
-    <img height=200 src="https://github.com/user-attachments/assets/6e6f287a-b823-42d0-9a2b-4dd3617712a7"/>
-    <img height=200 src="https://github.com/user-attachments/assets/7e78c0ab-8b17-4fae-9ecb-a1798567fc33"/>
-    <img height=200 src="https://github.com/user-attachments/assets/e25dc452-711d-4f38-ab1d-8890a96609f1"/>
-    <img height=200 src="https://github.com/user-attachments/assets/bb83976d-a796-4f0e-8cde-f228cdcc0db8"/>
-    <img height=200 src="https://github.com/user-attachments/assets/098c7c61-fffd-4a33-adb9-06c83856f5d7"/>
-</div>
-
-<br>
-
 ## ⛏ 기술 스택
 <table>
     <tr>
@@ -54,3 +33,29 @@
         </td>
     </tr>
 </table>
+
+<br>
+
+## 📱 앱 설치
+<a target="_blank" href="https://drive.google.com/file/d/1Aja1FJgEZoAK2JCB97OVqLzco_X72d2q/view?usp=drive_link">SpaceTraveler.apk</a>
+
+<br>
+
+## 📱 플레이 영상
+<a target="_blank" href="https://youtu.be/XuKyIYPBxcM">플레이 영상 보기</a>
+
+<br>
+
+## 📷 플레이 이미지
+<div align="center">
+    <img height=200 src="https://github.com/user-attachments/assets/3a732fbf-c96e-40bd-8a82-1491f7c78b5f"/>
+    <img height=200 src="https://github.com/user-attachments/assets/7817fb07-4231-4d19-a785-f4263c13e841"/>
+    <img height=200 src="https://github.com/user-attachments/assets/c385c5a0-bc0d-4946-9776-26c393e6ced6"/>
+    <img height=200 src="https://github.com/user-attachments/assets/b76ef12c-0aa8-493c-a382-3c949bf20a51"/>
+    <img height=200 src="https://github.com/user-attachments/assets/1cd49731-e3d8-4399-824b-bdd1b4b59c10"/>
+    <img height=200 src="https://github.com/user-attachments/assets/6e6f287a-b823-42d0-9a2b-4dd3617712a7"/>
+    <img height=200 src="https://github.com/user-attachments/assets/7e78c0ab-8b17-4fae-9ecb-a1798567fc33"/>
+    <img height=200 src="https://github.com/user-attachments/assets/e25dc452-711d-4f38-ab1d-8890a96609f1"/>
+    <img height=200 src="https://github.com/user-attachments/assets/bb83976d-a796-4f0e-8cde-f228cdcc0db8"/>
+    <img height=200 src="https://github.com/user-attachments/assets/098c7c61-fffd-4a33-adb9-06c83856f5d7"/>
+</div>
