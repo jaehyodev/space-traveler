@@ -1,0 +1,16 @@
+22-05-21
+curWeapon.color = new Color (255,255,255);
+로 바꾸니 
+실제 이미지 컬러는 191,191,191 알지비로 바뀐다
+
+알고보니 컬러의 변경값은 0~1이었따... ㅅㅂ
+
+
+
+이미지 투명도는 왜 안 바뀔까?
+답변: https://answers.unity.com/questions/1121691/how-to-modify-images-coloralpha.html
+
+	curWeapon이 이미지임... 이렇게 하면 투명도가 0이됨 (0부터1까지 조절)
+        Color color = curWeapon.color; 
+        color.a = 0;
+        curWeapon.color = color;

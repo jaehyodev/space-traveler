@@ -1,0 +1,78 @@
+20220511 적이 뭉쳐올 때, 자동공격이 멈춤
+-> 각도를 확인 결과, 0도에 도달하지 못하여 락온을 못해서 공격을 못 함.
+-> 적이 뭉쳐오다보니 서로 부딪쳐서 각도가 수시로 변하다보니 조준을 못하는듯 함.
+-> 락온의 오차를 10도를 주니 자동공격 하는 것을 확인함.
+
+--> 추가 문제: 각도 변경은 탐지 후, 한번만 하다보니 적이 각도를 변경시 조준이 따라가지 못할듯 함
+--> 해결 방법: 각도 변경도 탐지와 동ㅅ
+
+
+->적이 있다.
+->각도 비교
+->가까운 적 조준 명령 --> 적이 이동하여 각도가 틀어진다면?
+	                  --> 타겟은 설정되있어서 탐지는 하지 못함
+                               --> 즉 각도 변경을 수시로 할 수 없음
+	 	       --> 해결 방법 1. 각도를 수시변경
+                                 --> 탐지를 계속 해야함 락온이 안되잇다면
+->조준각도 들어오면 락온
+->자동 발사
+
+
+
+20220528
+태그가 안바뀌는 오류
+프리팹에 태그를 부여한다
+하지만 안 바뀐다
+그이유: 프리팹을 생성하고 프리팹에 태그를 부여하니까
+프리팹을 생성하면 프리팹의 카피본이 생성되는거임
+그래서 프리팹의 태그를 바꾸고 프리팹을 생성해야함
+
+프리팹에는 왜 하이라키에 있는 일반 겜오브젝트가 컴포넌트에 못붙일까
+
+
+20220529
+스크립트에서 this는 게임오브젝트가 아니라 class를 가리킨다
+this.gameObject가 게임오브젝트를 가리킨다.
+
+
+
+1번 무기 weapons [0] 무상관
+2번 무기 weapons [1] 무상관
+3번 무기 weapons [2] 2번은 1번과 관련
+
+1. 적이 2마리 이상
+2번이 공격중인 타겟을 공격해서는 안됨
+2. 적이 1마리가 있다.
+아무거나 공격해도 상관없다
+
+
+4번 무기 weapons [3]
+
+1. 적이 1, 2마리.
+아무거나 공격해도 상관 없다.
+2. 적이 3마리 이상
+2번무기와 3번무기 타겟은 피해야함
+
+20220605
+갑자기 사운드가 안나온다
+Alternative way,
+1. If tried the options discussed and have not yet got the sound system back,then
+
+2.Another way
+Edit -> Project Settings -> Audio -> System Sample Rate (change it from "0" to "1").
+That's all :)
+This worked for me, thanks! Setting it back to 0 again afterwards kept it working. Looks like changing the value forced FMOD to refresh something.
+
+EDIT: It happened again, and this fix didn't work anymore. But I finally figured out that it was because my platform was set to Android. Don't know why, but changing back to windows fixed it.
+
+사운드 문제는.... 내 그냥옵션문제엿음
+
+
+20220611
+managerDataSpaceship.instanceDataSpaceship.spaceshipId = spaceshipSlot;
+ManagerDataSpaceship.instanceDataSpaceship.spaceshipId = spaceshipSlot;
+
+아래걸로 하니 된다 이유는?
+위는 지역변수로 쓰니 겟컴포넌트로 가져와야함 그런데  인스턴스변수가 스태틱이라
+대문자로 해서 바로 가져와야한다.
+

@@ -1,0 +1,20 @@
+2022-05-22
+
+버튼마다 스크립트를 넣어주니
+스크립트안의 전역변수가 버튼마다 달라진다 ㅅㅂ 이게뭐야
+
+그래서 하나의 오브젝트안에 스크립트를 넣어서
+버튼을 관리해주자
+
+윗ㅅ 부분에 Public Button btnA;	Public Button btnB;
+
+
+    void Awake()
+    {
+        Button A = btnA.GetComponent<Button>();
+        Button B = btnB.GetComponent<Button>();
+
+        A.onClick.AddListener(DoSomethingA);
+        B.onClick.AddListener(DoSomethingB);
+
+https://docs.unity3d.com/530/Documentation/ScriptReference/UI.Button-onClick.html

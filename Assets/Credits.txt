@@ -1,0 +1,4 @@
+<사운드 출처>
+Explosion01 : mixkit-whip-small-explosion-1519 / https://mixkit.co/
+ExplosionMeteorite01 : mixkit-pixel-chiptune-explosion-1692 / https://mixkit.co/
+ExplosionMeteorite02 : mixkit-arcade-chiptune-explosion-1691 / https://mixkit.co/

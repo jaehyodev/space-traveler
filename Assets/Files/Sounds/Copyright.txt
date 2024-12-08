@@ -1,0 +1,43 @@
+1. ExplosionMeteorites : 
+DeathFlash.flac 86.7 Kb [6058 download(s)]
+https://opengameart.org/content/big-explosion
+Death flash sound from Yo Frankie! game.
+
+2. L_ParticleCannon
+LaserWeaponsSound
+heavy_blast_013
+
+3. H_RailGun
+Scifi Guns SFX Pack
+Gun1_1
+
+4. M_MiniGun
+PostApocalypseGunsDemo
+AssaultCanon_1p
+
+5. L_Cannon-L
+PostApocalypseGunsDemo
+Zapper_1p_01
+
+6. L_MachineGun
+PostApocalypseGunsDemo
+AutoGun_1p_01
+
+7. M_Cannon-M
+PostApocalypseGunsDemo
+-> Zapper_3p_01
+
+8. H-DoubleCannon-H
+PostApocalypseGunsDemo
+-> JackHammer_1p_01
+
+9. 런처
+Laser Weapons Sound Pack
+-> heavy_blast_008
+
+---EMP
+Gun5, Gun5_Load
+
+---Ult_LaserShow
+Laser Weapons Sound Pack
+continuous_beam_2

@@ -1,0 +1,19 @@
+1. Hierarchy에서 우클릭 -> 2D Object -> Sprites -> Square
+2. Project에서 유닛 Texture파일을 선택하고
+Sprite Mode는 Single에서 Multiple로 바꾼다. (why?)
+-> Apply 클릭
+-> Sprite Editor 클릭
+-> 나누고 Apply 클릭
+3. Hierarchy에서 유닛오브젝트의 Transform을 리셋
+-> Sprite에 idle을 넣는다
+-> Order in Layer: 1(?)
+
+4. 프리팹에 Animator 컴포넌트를 추가
+프로젝트에서 Animator Controller를 생성 -> 이름 설정 -> 
+프리팹에 Animation Controller를 넣는다
+Project에서 Animations 폴더에서 우클릭 Animation 클릭, 이름을 네임Idle로 설정, Loop Time 체크
+프리팹의 Animator탭에 Animation Idle을 드래그앤드랍한다
+프리팹을 더블클릭 -> Hiearchy View에 프리팹 정보가 떠야 애니메이션ㅅ ㅓㄹ정가능
+프리팹의 애니메이션 뷰로 가서 애니메이션들을 타임라인에 넣고
+샘플수를 6으로 설정
+

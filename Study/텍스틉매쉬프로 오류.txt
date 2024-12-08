@@ -1,0 +1,9 @@
+20220529
+
+
+The character with Unicode value \uC7A5 was not found in the [zekton free SDF] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [WeaponStatus_1_Text].
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+
+텍스틒매쉬프로에는 한국어가 없기 떄문에
+스크립트로 한국어로 바꾸라고 설정햇더니
+오류가 나는것이다.
