@@ -253,7 +253,7 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{inproject}: user.keystore'
+  AndroidKeystoreName: C:/SeoryDev/DevTools/Unity Hub/user.keystore
   AndroidKeyaliasName: spacetraveler key
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
