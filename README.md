@@ -41,7 +41,7 @@
 
 <br>
 
-## 📱 플레이 영상
+## 🎞 플레이 영상
 <a target="_blank" href="https://youtu.be/XuKyIYPBxcM">플레이 영상 보기</a>
 
 <br>
