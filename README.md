@@ -17,6 +17,8 @@
 ## ⭐ 설치
 <a href="https://drive.google.com/file/d/1Aja1FJgEZoAK2JCB97OVqLzco_X72d2q/view?usp=drive_link">SpaceTraveler.apk</a>
 
+<br>
+
 ## ⛏ 기술스택
 <table>
     <tr>
@@ -26,7 +28,7 @@
     <tr>
         <td>언어</td>
         <td>
-            <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white"/>
+            <img src="https://img.shields.io/badge/-C%23-000000?logo=Csharp&style=flat"/>
         </td>
     </tr>
     <tr>
@@ -35,5 +37,4 @@
             <img src="https://img.shields.io/badge/Unity-100000?style=flat-square&logo=unity&logoColor=white"/>
         </td>
     </tr>
-</tr>
 </table>
